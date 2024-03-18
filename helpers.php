@@ -17,8 +17,8 @@ Load a view
 function loadView($name)
 {
     $viewPath =  basePath("views/{$name}.view.php");
-    inspectAndDie($name);
-    inspect($viewPath);
+    // inspectAndDie($name);
+    // inspect($viewPath);
     if (file_exists($viewPath)) {
         require $viewPath;
     } else {
