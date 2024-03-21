@@ -1,0 +1,16 @@
+{
+  "name": "ash-js/work-opia-php",
+  "description": "Job listing application",
+  "author": [
+    {
+      "name": "Ashour Abdal",
+      "email": "ashurabdal89@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Framework\\": "Framework/",
+      "App\\": "App/"
+    }
+  }
+}
